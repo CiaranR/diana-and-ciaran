@@ -14,7 +14,7 @@
 				<p>Love was in the air</p>
 				<p style="margin-top: -30px; font-size: 23px">at Gemma and Declan's wedding and</p>
 				<p style="margin-top: -42px; font-size: 64px">they caught it</p>
-				<p style="margin-top: -30px;" class="text-center"><img src="./images/heart.png" title="Love heart" alt="Love heart" /></p>
+				<p style="margin-top: -30px;" class="text-center"><img src="./images/heart.png?v=<?php echo $version;?>" title="Love heart" alt="Love heart" /></p>
 				<p style="margin-top: -90px;" class="right">&rarr;</p>
 			</div> 
 			<div class="four columns">
@@ -27,7 +27,7 @@
 
 			</div>
 			<div class="four columns">
-				<p style="margin-top: 80px; margin-bottom: 0px;" class="text-center"><img src="./images/phone.png"  title="Calls texts and emails" alt="Calls texts and emails"/></p>
+				<p style="margin-top: 80px; margin-bottom: 0px;" class="text-center"><img src="./images/phone.png?v=<?php echo $version;?>"  title="Calls texts and emails" alt="Calls texts and emails"/></p>
 				<p style="margin-top: 5px; font-size: 23px">Over the next few weeks and months</p>
 				<p style="margin-top: -25px; font-size: 23px">they shared a flurry of <strong>text messages</strong></p>
 				<p style="margin-top: -25px; font-size: 21px"><strong>emails</strong>, and <strong>google chats</strong> which became</p>
@@ -45,11 +45,11 @@
 				<p style="margin-top: -85px; font-size: 135px"><strong>Beach</strong></p>
 				<p style="margin-top: -80px; font-size: 32px">And then Diana visited the</p>
 				<p style="margin-top: -95px; font-size: 148px"><strong>Farm</strong></p>
-				<p style="margin-top: -50px;" class="text-center"><img src="./images/sheep.png" title="A Sligo Sheep" alt="A Sligo Sheep" /></p>
+				<p style="margin-top: -50px;" class="text-center"><img src="./images/sheep.png?v=<?php echo $version;?>" title="A Sligo Sheep" alt="A Sligo Sheep" /></p>
 			</div>
 			<div class ="eight columns">
 				<p>
-					<img src="./images/loop.png"  title="Looop the loop" alt="Loop the loop"/>&nbsp;<img src="./images/plane.png"  title="An Airplane" alt="An Airplane" />
+					<img src="./images/loop.png?v=<?php echo $version;?>"  title="Looop the loop" alt="Loop the loop"/>&nbsp;<img src="./images/plane.png?v=<?php echo $version;?>"  title="An Airplane" alt="An Airplane" />
 				</p>
 				<p style="margin-top: 30px; font-size: 35px; line-height: 30px">
 					They spent a year criss crossing the globe to spend 
@@ -80,7 +80,7 @@
 		</div>
 		<div class="row">
 			<div class="twelve columns">
-				<img src="images/london.png" title="The London Skyline" alt="The London Skyline" />
+				<img src="images/london.png?v=<?php echo $version;?>" title="The London Skyline" alt="The London Skyline" />
 			</div>
 		</div>
 		<div class="row">
@@ -93,14 +93,14 @@
 				<p style="margin-top: -40px; font-size: 45px;">on a cliff <strong>overlooking the sea</strong></p>
 			</div>
 			<div class="six columns">
-				<img src="images/sun.png" style="margin-top: 15px;margin-left: 60px;" title="The Setting Sun" alt="The Setting Sun"/><br />
-				<img src="images/sea2.gif" style="margin-top: 30px; margin-left: 45px;" title="The Rolling Sea" alt="The Rolling Sea" /><br />
-				<img src="images/sea2.gif" style="margin-left: 15px;" title="The Rolling Sea" alt="The Rolling Sea" />
+				<img src="images/sun.png?v=<?php echo $version;?>" style="margin-top: 15px;margin-left: 60px;" title="The Setting Sun" alt="The Setting Sun"/><br />
+				<img src="images/sea2.gif?v=<?php echo $version;?>" style="margin-top: 30px; margin-left: 45px;" title="The Rolling Sea" alt="The Rolling Sea" /><br />
+				<img src="images/sea2.gif?v=<?php echo $version;?>" style="margin-left: 15px;" title="The Rolling Sea" alt="The Rolling Sea" />
 			</div>
 		</div>
 		<div class="row">
 			<div class="three columns">
-				<img src="images/ring.png" style="margin-left:40px" title="The Diamond Ring" alt="The Diamond Ring" />
+				<img src="images/ring.png?v=<?php echo $version;?>" style="margin-left:40px" title="The Diamond Ring" alt="The Diamond Ring" />
 			</div>
 			<div class="nine columns">
 				<p>When they were done</p>
@@ -116,13 +116,13 @@
 			<div class="two columns">			
 			</div>
 			<div class="two columns">
-				<img src="images/left-bracket.png" style="margin-left:30px" title="{" alt="{" />
+				<img src="images/left-bracket.png?v=<?php echo $version;?>" style="margin-left:30px" title="{" alt="{" />
 			</div>
 			<div class="four columns">
 				<p class="text-center" id="yes"><strong>YES</strong></p>
 			</div>
 			<div class="two columns">
-				<img src="images/right-bracket.png" title="}" alt="}" />
+				<img src="images/right-bracket.png?v=<?php echo $version;?>" title="}" alt="}" />
 			</div>
 			<div class="two columns">			
 			</div>
