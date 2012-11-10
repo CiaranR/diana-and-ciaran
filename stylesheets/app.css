@@ -1,11 +1,14 @@
-/* Artfully masterminded by ZURB  */
-
 /* -------------------------------------------------- 
    Table of Contents
 -----------------------------------------------------
 :: Shared Styles
-:: Page Name 1
-:: Page Name 2
+:: our-story
+:: our-wedding-party
+:: the big-day
+:: out-of-towners
+:: gift-registery
+:: rsvp
+:: footer
 */
 
 
@@ -13,17 +16,186 @@
    Shared Styles
 ----------------------------------------- */
 
+#nav-top{
+background: #000066; 
+color: #6699cc; 
+width:100%
+}
+
+.nav-bg {
+	background-image: url('../images/header.png');
+	background-repeat: no-repeat;
+	width: 1150px;
+	height: 190px;
+}
+.nav-bg p {
+	margin-top: 80px;
+}
+.pad-right-50 {
+	padding-right:50px
+}
+.pad-left-50 {
+	padding-left:50px
+}
+.home-link {
+	display:block;
+	width: 300px;
+	margin-left: -70px;
+	padding-right: 70px;
+	height: 190px;
+}
+.rot-neg-90 {
+	-moz-transform:rotate(-270deg); 
+	-moz-transform-origin: top left;
+	-webkit-transform: rotate(-270deg);
+	-webkit-transform-origin: top left;
+	-o-transform: rotate(-270deg);
+	-o-transform-origin:  top left;
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+}
+
+/* -----------------------------------------
+   our-story
+----------------------------------------- */
+
+.our-story {
+	background-image: url('../images/our-story.png');
+	background-repeat: no-repeat;
+	height: 110px;
+	margin-top: 30px;
+}
+#our-story-text  p{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 46px;
+}
+#our-story-text .ny {
+	margin-left: 130px;
+	margin-top: 0px; 
+	font-size: 106px; 
+	width: 465px;
+	font-weight: bold;
+	background: #69C;
+	z-index: 2;
+}
+#our-story-text .ldn {
+	margin-left: 220px;
+	margin-top: 0px; 
+	font-size: 141px;
+	width: 465px;
+	font-weight: bold;
+	background: #69C;
+}
+.ie6 .ny, .ie7 .ny, .ie8 .ny, .ie9 .ny {
+	margin-left: -50px;
+}
+.ie6 .ldn, .ie7 .ldn, .ie8 .ldn, .ie9 .ldn {
+	margin-left: 0px;
+}
+#our-story-text .cites {
+	margin-left:-90px; 
+	z-index:3;
+	font-weight: bold;
+}
+#our-story-text .she-said {
+	margin-top: -15px; 
+	font-size: 60px;
+	text-align:center;
+}
+#our-story-text  #yes {
+	margin-top: -15px; 
+	font-size: 190px;
+}
 
 
 /* -----------------------------------------
-   Page Name 1
+   our-wedding-party
 ----------------------------------------- */
 
+.party {
+	background-image: url('../images/party.png');
+	background-repeat: no-repeat;
+	height: 110px;
+	margin-top: 30px;
+}
 
+/* -----------------------------------------
+   the-big-day
+----------------------------------------- */
+
+.day {
+	background-image: url('../images/our-big-day.png');
+	background-repeat: no-repeat;
+	height: 110px;
+	margin-top: 30px;
+}
+
+/* -----------------------------------------
+   out-of-towners
+----------------------------------------- */
+
+.town {
+	background-image: url('../images/town.png');
+	background-repeat: no-repeat;
+	height: 110px;
+	margin-top: 30px;
+}
+
+/* -----------------------------------------
+   gift-registery
+----------------------------------------- */
+
+.gift {
+	background-image: url('../images/gift.png');
+	background-repeat: no-repeat;
+	height: 110px;
+	margin-top: 30px;
+}
+
+/* -----------------------------------------
+   rsvp
+----------------------------------------- */
+
+.rsvp {
+	background-image: url('../images/rsvp.png');
+	background-repeat: no-repeat;
+	height: 110px;
+	margin-top: 30px;
+}
 
 
 /* -----------------------------------------
-   Page Name 2
+   footer
 ----------------------------------------- */
 
-
+#wrap {
+	min-height: 100%;
+}
+.ie6  #wrap {
+	display:table;
+	height:100%;
+}
+#main {
+	overflow:auto;
+	padding-bottom: 52px; /* must be same height as the footer */
+} 
+#footer {
+	position: relative;
+	margin-top: -52px; /* negative value of footer height */
+	height: 52px;
+	background: #000066; 
+	color: #6699cc; 
+	width:100%;
+	clear:both;
+} 
+#footer p {
+	line-height: 50px;
+	margin-bottom: 0px;
+}
+/*Crazy Opera Fix*/
+body:before {
+	content:"";
+	height:100%;
+	float:left;
+	width:0;
+	margin-top:-32767px;
+}

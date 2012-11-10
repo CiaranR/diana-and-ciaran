@@ -17,24 +17,24 @@ switch ($menu) {
     case "our-story":
         include 'story-tpl.php';
         break;
-    case "speakers":
-        include 'speakers-tpl.php';
+    case "wedding-party":
+        include 'party-tpl.php';
         break;
-    case "schedule":
-        include 'schedule-tpl.php';
+    case "the-big-day":
+        include 'day-tpl.php';
         break;
-    case "sponsors":
-        include 'sponsors-tpl.php';
+    case "out-of-towners":
+        include 'town-tpl.php';
         break;
-    case "socials":
-        include 'socials-tpl.php';
+    case "gift-registery":
+        include 'gift-tpl.php';
         break;
-    case "venue":
-        include 'venue-tpl.php';
+    case "rsvp":
+        include 'rsvp-tpl.php';
         break;
 	default:
 		header('HTTP/1.0 404 Not Found');
-		include '../addons/error/404.php';
+		include 'addons/error/404.php';
 	break;
 }
  include 'footer-tpl.php';

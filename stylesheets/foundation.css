@@ -2,9 +2,9 @@
 /* Global Reset & Standards ---------------------- */
 * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
-html { font-size: 62.5%; }
+html { font-size: 62.5%; height: 100%;}
 
-body { background: white; font-family: "Helvetica", Helvetica, Arial, sans-serif; font-size: 22px; line-height: 1; color: #000066; position: relative; -webkit-font-smoothing: antialiased; }
+body { background: #6699cc; font-family: "Helvetica", Helvetica, Arial, sans-serif; font-size: 22px; line-height: 1; color: #000066; position: relative; -webkit-font-smoothing: antialiased; height: 100%;}
 
 /* Links ---------------------- */
 a { color: #6699cc; text-decoration: none; line-height: inherit; }
