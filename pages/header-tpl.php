@@ -1,3 +1,6 @@
+<?php 
+$version = "0.1.1";
+?>
 <!DOCTYPE html>
 <!--[if lt IE 7 ]> <html class="ie6"> <![endif]-->
 <!--[if IE 7 ]>    <html class="ie7"> <![endif]-->
@@ -12,9 +15,9 @@
 	<title>Welcome to Diana and Ciar&aacute;n's Wedding Website</title>
 
 	<!-- Included CSS Files (Uncompressed) -->
-	<link rel="stylesheet" href="stylesheets/foundation.css">
-	<link rel="stylesheet" href="stylesheets/app.css">
-	<script src="javascripts/modernizr.foundation.js"></script>
+	<link rel="stylesheet" href="stylesheets/foundation.css?v=<?php echo $version;?>">
+	<link rel="stylesheet" href="stylesheets/app.css?v=<?php echo $version;?>">
+	<script src="javascripts/modernizr.foundation.js?v=<?php echo $version;?>"></script>
 	<!-- IE Fix for HTML5 Tags -->
 	<!--[if lt IE 9]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>

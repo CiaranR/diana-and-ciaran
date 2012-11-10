@@ -10,10 +10,10 @@
 	</div>
 </div>  
 	<!-- Included JS Files (Compressed) -->
-	<script src="javascripts/jquery.js"></script>
-	<script src="javascripts/foundation.min.js"></script>
-	<script src="javascripts/jquery.countdown.min.js"></script>
+	<script src="javascripts/jquery.js?v=<?php echo $version;?>"></script>
+	<script src="javascripts/foundation.min.js?v=<?php echo $version;?>"></script>
+	<script src="javascripts/jquery.countdown.min.js?v=<?php echo $version;?>"></script>
 	<!-- Initialize JS Plugins -->
-	<script src="javascripts/app.js"></script>
+	<script src="javascripts/app.js?v=<?php echo $version;?>"></script>
 </body>
 </html>
