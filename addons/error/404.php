@@ -2,7 +2,7 @@
 	<div class="row">
 		<div class="three columns"></div> 
 		<div class="six columns 404">
-			<h2 class="hide">file not found</h2>
+			<h2>file not found</h2>
 		</div>
 		<div class="three columns"></div>
 	</div>
