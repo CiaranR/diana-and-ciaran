@@ -105,7 +105,7 @@
 			<div class="nine columns">
 				<p>When they were done</p>
 				<p style="margin-top: -60px; font-size: 70px;"><strong>He got down on one knee</strong></p>		
-				<p style="margin-top: -52px; font-size: 44px;">And said the words she"d been waiting to hear</p>		
+				<p style="margin-top: -52px; font-size: 44px;">And said the words she'd been waiting to hear</p>		
 				<p style="margin-top: -65px; font-size: 90px;"><strong>Will you marry me?</strong></p>
 			</div>
 		</div>
