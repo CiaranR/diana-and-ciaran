@@ -11,16 +11,16 @@
 	<div id="our-story-text">
 		<div class="row">
 			<div class="four columns">
-				<p>Love was in the air</p>
-				<p style="margin-top: -30px; font-size: 23px">at Gemma and Declan's wedding and</p>
+				<p style="font-size: 40px"><span style="font-size: 90px; font-family: 'Cherry Swash', cursive;">L</span>ove was in the air</p>
+				<p style="margin-top: -55px; font-size: 23px">at Gemma and Declan's wedding and</p>
 				<p style="margin-top: -42px; font-size: 64px">they caught it</p>
 				<p style="margin-top: -30px;" class="text-center"><img src="./images/heart.png?v=<?php echo $version;?>" title="Love heart" alt="Love heart" /></p>
-				<p style="margin-top: -90px;" class="right">&rarr;</p>
+				
 			</div> 
 			<div class="four columns">
-				<p style="margin-top: -41px; font-size: 135px"><strong>Diana</strong></p>
+				<p style="margin-top: 41px; font-size: 135px"><strong class="shadow">Diana</strong></p>
 				<p style="margin-top: -80px; font-size: 30px">thought she would never see</p>
-				<p style="margin-top: -75px; font-size: 113px"><strong>Ciaran</strong></p>
+				<p style="margin-top: -75px; font-size: 113px"><strong class="shadow">Ciaran</strong></p>
 				<p style="margin-top: -70px; font-size: 24px">again, but magically he showed up</p>
 				<p style="margin-top: -25px; font-size: 24px">the very next night and was full of</p>
 				<p style="margin-top: -38px; font-size: 36px"><strong>charm &amp; witty banter</strong></p>
@@ -38,13 +38,13 @@
 		<div class="row">
 			<div class="four columns" style="z-index: 4;">
 				<p style="margin-top: 0px; font-size: 24px">And then Ciaran came to see her in</p>
-				<p style="margin-top: -60px; font-size: 79px"><strong>New York</strong></p>
+				<p style="margin-top: -60px; font-size: 79px"><strong class="shadow">New York</strong></p>
 				<p style="margin-top: -50px; font-size: 24px">And then Diana came to see him in</p>
-				<p style="margin-top: -70px; font-size: 105px"><strong>London</strong></p>
+				<p style="margin-top: -70px; font-size: 105px"><strong class="shadow">London</strong></p>
 				<p style="margin-top: -65px; font-size: 32px">And then Ciaran visited the</p>
-				<p style="margin-top: -85px; font-size: 135px"><strong>Beach</strong></p>
+				<p style="margin-top: -85px; font-size: 135px"><strong class="shadow">Beach</strong></p>
 				<p style="margin-top: -80px; font-size: 32px">And then Diana visited the</p>
-				<p style="margin-top: -95px; font-size: 148px"><strong>Farm</strong></p>
+				<p style="margin-top: -95px; font-size: 148px"><strong class="shadow">Farm</strong></p>
 				<p style="margin-top: -50px;" class="text-center"><img src="./images/sheep.png?v=<?php echo $version;?>" title="A Sligo Sheep" alt="A Sligo Sheep" /></p>
 			</div>
 			<div class ="eight columns">
@@ -56,7 +56,7 @@
 					time together and build up their frequent flier miles!
 				</p>
 			</div>
-			<div class="two columns">
+			<div class="two columns shadow">
 				<p class="rot-neg-90 ny">New&nbsp;York</p>
 			</div>
 			<div class="four columns cites">
@@ -65,7 +65,7 @@
 				<p style="margin-top: -70px; font-size: 115px">Barcelona</p>
 				<p style="margin-top: -60px; font-size: 79px">Brighton&nbsp;Sligo</p>
 			</div>
-			<div class="two columns">
+			<div class="two columns shadow">
 				<p class="rot-neg-90 ldn">London</p>
 			</div>
 		</div>
@@ -104,9 +104,9 @@
 			</div>
 			<div class="nine columns">
 				<p>When they were done</p>
-				<p style="margin-top: -60px; font-size: 70px;"><strong>He got down on one knee</strong></p>		
+				<p style="margin-top: -60px; font-size: 70px;"><strong class="shadow">He got down on one knee</strong></p>		
 				<p style="margin-top: -52px; font-size: 44px;">And said the words she'd been waiting to hear</p>		
-				<p style="margin-top: -65px; font-size: 90px;"><strong>Will you marry me?</strong></p>
+				<p style="margin-top: -65px; font-size: 90px;"><strong class="shadow">Will you marry me?</strong></p>
 			</div>
 		</div>
 		<div class="row">
@@ -116,27 +116,42 @@
 			<div class="two columns">			
 			</div>
 			<div class="two columns">
-				<img src="images/left-bracket.png?v=<?php echo $version;?>" style="margin-left:30px" title="{" alt="{" />
+				<img src="images/left-bracket.png?v=<?php echo $version;?>" style="margin-left:30px" alt="{" />
 			</div>
 			<div class="four columns">
-				<p class="text-center" id="yes"><strong>YES</strong></p>
+				<p class="text-center" id="yes"><strong class="shadow">YES</strong></p>
 			</div>
 			<div class="two columns">
-				<img src="images/right-bracket.png?v=<?php echo $version;?>" title="}" alt="}" />
+				<img src="images/right-bracket.png?v=<?php echo $version;?>" alt="}" />
 			</div>
 			<div class="two columns">			
 			</div>
 		</div>
 		
-		<!--<div class="row">
+		<div class="row">
 			<div class="twelve columns">
-				<h3>In Pictures</h3>
-					<div id="featured">
-						<img src="http://placehold.it/1200x250&text=Slide_1" alt="slide image">
-						<img src="http://placehold.it/1200x250&text=Slide_2" alt="slide image">
-						<img src="http://placehold.it/1200x250&text=Slide_3" alt="slide image">
+				<div id="featured">
+					<img src="images/story/1.jpg?v=<?php echo $version;?>" alt=" ">
+					<img src="images/story/2.jpg?v=<?php echo $version;?>" alt=" ">
+					<img src="images/story/3.jpg?v=<?php echo $version;?>" alt=" ">
+					<img src="images/story/4.jpg?v=<?php echo $version;?>" alt=" ">
+					<img src="images/story/5.jpg?v=<?php echo $version;?>" alt=" ">
+					<img src="images/story/6.jpg?v=<?php echo $version;?>" alt=" ">
+					<img src="images/story/7.jpg?v=<?php echo $version;?>" alt=" ">
+					<img src="images/story/8.jpg?v=<?php echo $version;?>" alt=" ">
+					<img src="images/story/9.jpg?v=<?php echo $version;?>" alt=" ">
+					<img src="images/story/10.jpg?v=<?php echo $version;?>" alt=" ">
+					<img src="images/story/11.jpg?v=<?php echo $version;?>" alt=" ">
+					<img src="images/story/12.jpg?v=<?php echo $version;?>" alt=" ">
+					<img src="images/story/13.jpg?v=<?php echo $version;?>" alt=" ">
+					<img src="images/story/14.jpg?v=<?php echo $version;?>" alt=" ">
+					<img src="images/story/15.jpg?v=<?php echo $version;?>" alt=" ">
+					<img src="images/story/16.jpg?v=<?php echo $version;?>" alt=" ">
+					<img src="images/story/17.jpg?v=<?php echo $version;?>" alt=" ">
+					<img src="images/story/18.jpg?v=<?php echo $version;?>" alt=" ">
+					<img src="images/story/19.jpg?v=<?php echo $version;?>" alt=" ">
 				</div>
 			</div>
-		</div>-->
+		</div>
 	</div>
 	<!-- end content -->

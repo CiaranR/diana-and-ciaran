@@ -17,6 +17,7 @@ $version = "0.1.1";
 	<!-- Included CSS Files (Uncompressed) -->
 	<link rel="stylesheet" href="stylesheets/foundation.css?v=<?php echo $version;?>">
 	<link rel="stylesheet" href="stylesheets/app.css?v=<?php echo $version;?>">
+	<link href='http://fonts.googleapis.com/css?family=Cherry+Swash' rel='stylesheet' type='text/css'>
 	<script src="javascripts/modernizr.foundation.js?v=<?php echo $version;?>"></script>
 	<!-- IE Fix for HTML5 Tags -->
 	<!--[if lt IE 9]>

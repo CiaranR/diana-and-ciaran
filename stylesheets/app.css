@@ -21,12 +21,31 @@ background: #000066;
 color: #6699cc; 
 width:100%
 }
-
+#nav-top a {
+	color: #6699cc;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px #000;
+}
+#nav-top a:hover { 
+	color: #996600;
+	text-decoration: underline;
+}
+#nav-top a:focus { 
+	color: #996600;
+	outline: none; 
+}
 .nav-bg {
-	background-image: url('../images/header.png');
+	background-image: url('../images/main-header.png');
 	background-repeat: no-repeat;
 	width: 1150px;
 	height: 190px;
+}
+.nav-bg-over {
+	background-image: url('../images/main-header.png');
+	background-repeat: no-repeat;
+	width: 1150px;
+	height: 190px;
+	background-position: -190px;
 }
 .nav-bg p {
 	margin-top: 80px;
@@ -36,6 +55,12 @@ width:100%
 }
 .pad-left-50 {
 	padding-left:50px
+}
+.pad-right-15 {
+	padding-right:15px
+}
+.pad-left-15 {
+	padding-left:15px
 }
 .home-link {
 	display:block;
@@ -64,9 +89,12 @@ width:100%
 	height: 110px;
 	margin-top: 30px;
 }
-#our-story-text  p{
+#our-story-text  p {
 	font-family: "Times New Roman", Times, serif;
 	font-size: 46px;
+}
+#our-story-text  p strong.shadow{
+	text-shadow: 1px 1px 1px #000;
 }
 #our-story-text .ny {
 	margin-left: 130px;
@@ -95,6 +123,7 @@ width:100%
 	margin-left:-90px; 
 	z-index:3;
 	font-weight: bold;
+	text-shadow: 1px 1px 1px #000;
 }
 #our-story-text .she-said {
 	margin-top: -15px; 
@@ -117,6 +146,9 @@ width:100%
 	height: 110px;
 	margin-top: 30px;
 }
+#party-text {
+	color: #222;
+}
 
 /* -----------------------------------------
    the-big-day
@@ -138,6 +170,10 @@ width:100%
 	background-repeat: no-repeat;
 	height: 110px;
 	margin-top: 30px;
+}
+#town-text {
+	font-size: 14px;
+	color: #222;
 }
 
 /* -----------------------------------------
@@ -176,19 +212,22 @@ width:100%
 }
 #main {
 	overflow:auto;
-	padding-bottom: 52px; /* must be same height as the footer */
+	padding-bottom: 82px; /* must be same height as the footer */
 } 
 #footer {
 	position: relative;
-	margin-top: -52px; /* negative value of footer height */
-	height: 52px;
+	margin-top: -82px; /* negative value of footer height */
+	height: 82px;
 	background: #000066; 
+	background-image:  url('../images/foot.png');
+	background-repeat: no-repeat;
+	background-position: center center;
 	color: #6699cc; 
 	width:100%;
 	clear:both;
 } 
 #footer p {
-	line-height: 50px;
+	line-height: 20px;
 	margin-bottom: 0px;
 }
 /*Crazy Opera Fix*/

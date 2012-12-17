@@ -3,8 +3,11 @@
 <div id="footer">
 	<div class="row">
 		<div class="twelve columns">
-			<p class="text-center">
-				Made with love by Ciar&aacute;n and Diana - Just <span id="defaultCountdown"></span> until the big day!
+			
+			<p class="text-center" style="font-size: 18px;"> <br /> 
+				Just <span id="defaultCountdown"></span> until The Big Day! <br />
+				<span style="font-size: 16px;">Made with love by Ciar&aacute;n and Diana</span>
+				
 			</p>
 		</div>
 	</div>

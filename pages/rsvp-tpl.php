@@ -11,7 +11,7 @@
 	<div id="rsvp-text">
 		<div class="row">
 			<div class="twelve columns">
-				<p class="text-center">Comming Soon!</p>
+				<p class="text-center">Coming Soon!</p>
 			</div>
 		</div>
 	</div>
