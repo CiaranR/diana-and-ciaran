@@ -1,5 +1,5 @@
 <?php 
-$version = "0.1.1";
+$version = "0.1.2";
 ?>
 <!DOCTYPE html>
 <!--[if lt IE 7 ]> <html class="ie6"> <![endif]-->
