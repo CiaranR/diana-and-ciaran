@@ -13,7 +13,7 @@ $version = "0.1.2";
 	<meta name="viewport" content="width=device-width" />
 
 	<title>Welcome to Diana and Ciar&aacute;n's Wedding Website</title>
-
+	<base href="http://<?php echo $host;?>"/>
 	<!-- Included CSS Files (Uncompressed) -->
 	<link rel="stylesheet" href="stylesheets/foundation.css?v=<?php echo $version;?>">
 	<link rel="stylesheet" href="stylesheets/app.css?v=<?php echo $version;?>">

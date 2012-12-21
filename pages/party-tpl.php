@@ -14,13 +14,13 @@
 				<img src="./images/party/michelle.jpg?v=<?php echo $version;?>" title="Michelle Altmann" alt="Michelle Altmann" class="right pad-left-15" />
 				<p class="text-right"><strong>Michelle Altmann<br />
 				   Maid of Honor</strong></p>
-				<p class="text-right">Bacon ipsum dolor sit amet spare ribs bacon boudin, salami pork sirloin filet mignon prosciutto pork loin shankle tail ground round meatball meatloaf. Ham hock </p>
+				<p class="text-right">Michelle is Diana's little sister.</p>
 			</div>
 			<div class="six columns">
 				<img src="./images/party/darren.jpg?v=<?php echo $version;?>" title="Darren Rooney" alt="Darren Rooney" class="left pad-right-15" />
 				<p class="text-left"><strong>Darren Rooney<br />
 				   Best Man</strong></p>
-				<p class="text-left">Darren is Ciar&aacute;n's younger brother. He has long suffered from middle child syndrom and is now looking forward to his chance to shine. He has promised not to just download his speach from a webite, regardless of how appropriate that might be.</p>
+				<p class="text-left">Darren is Ciar&aacute;n's younger brother. He has long suffered from middle child syndrome and is now looking forward to his chance to shine. He has promised not to download his speech from a website.</p>
 			</div>			
 		</div>
 		<div class="row">
@@ -28,13 +28,13 @@
 				<img src="./images/party/rachel.jpg?v=<?php echo $version;?>" title="Rachel Willms" alt="Rachel Willms" class="right pad-left-15" />
 				<p class="text-right"><strong>Rachel Willms<br />
 				   Bridesmaid</strong></p>
-				<p class="text-right">Bacon ipsum dolor sit amet spare ribs bacon boudin, salami pork sirloin filet mignon prosciutto pork loin shankle tail ground round meatball meatloaf. Ham hock </p>
+				<p class="text-right">Rachel is Diana's oldest friend, they have known each other their whole lives and grew up down the block from each other. They spent their childhood together riding bikes, going to the beach, and playing tennis with the dream of one day making it to Wimbledon. Diana has, but she had to pay for the ticket.</p>
 			</div>
 			<div class="six columns">
 				<img src="./images/party/ultan.jpg?v=<?php echo $version;?>" title="Ultan Rooney" alt="Ultan Rooney" class="left pad-right-15" />
 				<p class="text-left"><strong>Ultan Rooney<br />
 				   Groomsman</strong></p>
-				<p class="text-left"><span title="aka Wee Man">Ultan</span> is Ciar&aacute;n's little brother. The youngest in the family he is used to getting things his own way, so he will have to listen to what his big brother says for once.</p>
+				<p class="text-left"><span title="aka Wee Man">Ultan</span> is Ciar&aacute;n's little brother. As the youngest in the family, he is used to getting things his own way so now he will have to listen to what his big brothers says for once.</p>
 			</div>			
 		</div>
 		<div class="row">
@@ -42,13 +42,13 @@
 				<img src="./images/party/courtney.jpg?v=<?php echo $version;?>" title="Courtney Schrodel" alt="Courtney Schrodel" class="right pad-left-15" />
 				<p class="text-right"><strong>Courtney Schrodel<br />
 				   Bridesmaid</strong></p>
-				<p class="text-right">Bacon ipsum dolor sit amet spare ribs bacon boudin, salami pork sirloin filet mignon prosciutto pork loin shankle tail ground round meatball meatloaf. Ham hock </p>
+				<p class="text-right">Courtney and Diana met in kindergarten.</p>
 			</div>
 			<div class="six columns">
 				<img src="./images/party/dave.jpg?v=<?php echo $version;?>" title="David Rooney" alt="David Rooney" class="left pad-right-15" />
 				<p class="text-left"><strong>David Rooney<br />
 				   Groomsman</strong></p>
-				<p class="text-left"><span title="aka Ted">Dave</span> and Ciar&aacute;n met doing the same course in DCU, they started a Snowboarding Club together, became great friends and lived together for years. They have been mistaken for brothers ever since they first met.</p>
+				<p class="text-left"><span title="aka Ted">Dave</span> and Ciar&aacute;n met while doing the same course and they started the Snowboarding Club together at DCU.  They became great friends and lived together for years. They have used having the same last name to their advantage over the years, with people often mistaking them for brothers.</p>
 			</div>			
 		</div>		
 		<div class="row">
