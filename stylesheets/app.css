@@ -148,11 +148,14 @@ width:100%
 }
 #party-text  p{
 	color: #006;
-	font-size: 18px;
+	font-size: 16px;
 }
 #party-text strong {
 	color: #960;
-	font-size: 25px;
+	font-size: 23px;
+}
+#party-text  img{
+	margin-bottom: 50px;
 }
 
 /* -----------------------------------------

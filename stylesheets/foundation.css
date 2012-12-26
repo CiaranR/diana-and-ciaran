@@ -7,7 +7,7 @@ html { font-size: 62.5%; height: 100%;}
 body { background: #6699cc; font-family: "Helvetica", Helvetica, Arial, sans-serif; font-size: 22px; line-height: 1; color: #000066; position: relative; -webkit-font-smoothing: antialiased; height: 100%;}
 
 /* Links ---------------------- */
-a { color: #6699cc; text-decoration: none; line-height: inherit; }
+a { color: #960; text-decoration: none; line-height: inherit; }
 
 a:hover { color: #2e2eb8; text-decoration: underline;}
 
