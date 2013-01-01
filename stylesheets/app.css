@@ -78,6 +78,13 @@ width:100%
 	-o-transform-origin:  top left;
 	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
 }
+.nov8 {
+	background-image: url('../images/nov-8.png');
+	background-repeat: no-repeat;
+	height: 110px;
+	margin-top:  -85px;
+	z-index: 5;
+}
 
 /* -----------------------------------------
    our-story
@@ -148,11 +155,14 @@ width:100%
 }
 #party-text  p{
 	color: #006;
-	font-size: 18px;
+	font-size: 16px;
 }
 #party-text strong {
 	color: #960;
-	font-size: 25px;
+	font-size: 23px;
+}
+#party-text  img{
+	margin-bottom: 50px;
 }
 
 /* -----------------------------------------
@@ -164,6 +174,14 @@ width:100%
 	background-repeat: no-repeat;
 	height: 110px;
 	margin-top: 30px;
+}
+#day-text {
+	padding-top:30px;
+	padding-bottom:30px;
+}
+#day-text p{
+color: #006;
+font-size: 20px;
 }
 
 /* -----------------------------------------
@@ -177,8 +195,8 @@ width:100%
 	margin-top: 30px;
 }
 #town-text p{
-	font-size: 16px;
-	color: #222;
+color: #006;
+font-size: 16px;
 }
 #town-text h3{
 	color: #960;
