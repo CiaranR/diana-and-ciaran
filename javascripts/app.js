@@ -58,8 +58,8 @@ $(function () {
 });
 $(document).ready (function () {
     $('.home-link').hover(function() {
-		$('.nav-bg').css('background-position', '-1px -169px');		
+		$('.nav-bg').css('background-position', '0 0');		
     }, function() {
-		$('.nav-bg').css('background-position', '0 0');
+		$('.nav-bg').css('background-position', '0px -170px');
     });    
 });
