@@ -80,7 +80,39 @@ width:100%
 	margin-top:  -85px;
 	z-index: 5;
 }
+form.custom div.custom.dropdown { margin-bottom: 13px; height: auto }
+form.custom div.custom.dropdown a.current { padding-top: 2px; padding-bottom: 2px; -moz-border-radius: 2px; -ms-border-radius: 2px; -o-border-radius: 2px; border-radius: 2px; }
+form.custom div.custom.dropdown a.selector { height: 32px; }
+form.custom div.custom.dropdown ul { top: 32px; }
+form.custom div.custom.dropdown ul li { padding-top: 5px; padding-bottom: 5px; }
 
+
+#mc_embed_signup #mce-error-response { 
+	display:none;
+	padding: 6px 4px;
+	margin: 12px;
+	background: #C60F13;
+	color: white;
+	font-size: 14px;
+	font-size: 1.4rem;
+	font-weight: bold;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+#mc_embed_signup #mce-success-response { 
+	display:none;
+	padding: 6px 4px;
+	margin: 12px;
+	background: #529214;
+	color: white;
+	font-size: 14px;
+	font-size: 1.4rem;
+	font-weight: bold;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
 /* -----------------------------------------
    our-story
 ----------------------------------------- */
