@@ -35,12 +35,11 @@ width:100%
 	outline: none; 
 }
 .nav-bg {
-	background-image: url('../images/main-header.png');
-	background-repeat: no-repeat;
-	background-position: 0px -170px;
+	padding-bottom: 30px;
 }
 .nav-bg p {
-	margin-top: 80px;
+	margin-top: 25px;
+	font-size: 20px;
 }
 .pad-right-50 {
 	padding-right:50px
@@ -54,7 +53,7 @@ width:100%
 .pad-left-15 {
 	padding-left:15px
 }
-.home-link {
+.home-link-off {
 	display:block;
 	width: 300px;
 	margin-left: -70px;
@@ -62,7 +61,25 @@ width:100%
 	height: 190px;
 }
 .nav-left {
-	height: 190px;
+	height: 90px;
+	border-top: #996600 solid 3px;
+	margin-top: 50px;
+	border-bottom: #996600 solid 3px;
+	box-shadow: 0px 2px 0px #000;
+	-webkit-box-shadow: 0px 2px 0px #000;
+	-moz-box-shadow: 0px 2px 0px #000;
+}
+.nav-center {
+	padding-top: 2px;
+}
+.nav-right {
+	height: 90px;
+	border-top: #996600 solid 3px;
+	margin-top: 50px;
+	border-bottom: #996600 solid 3px;
+	box-shadow: 0px 2px 0px #000;
+	-webkit-box-shadow: 0px 2px 0px #000;
+	-moz-box-shadow: 0px 2px 0px #000;
 }
 .rot-neg-90 {
 	-moz-transform:rotate(-270deg); 
@@ -74,11 +91,8 @@ width:100%
 	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
 }
 .nov8 {
-	background-image: url('../images/nov-8.png');
-	background-repeat: no-repeat;
-	height: 110px;
-	margin-top:  -85px;
-	z-index: 5;
+	margin-top:  -80px;
+	z-index: 9;
 }
 form.custom div.custom.dropdown { margin-bottom: 13px; height: auto }
 form.custom div.custom.dropdown a.current { padding-top: 2px; padding-bottom: 2px; -moz-border-radius: 2px; -ms-border-radius: 2px; -o-border-radius: 2px; border-radius: 2px; }
@@ -118,9 +132,6 @@ form.custom div.custom.dropdown ul li { padding-top: 5px; padding-bottom: 5px; }
 ----------------------------------------- */
 
 .our-story {
-	background-image: url('../images/our-story.png');
-	background-repeat: no-repeat;
-	height: 110px;
 	margin-top: 30px;
 }
 #our-story-text  p {
@@ -175,9 +186,6 @@ form.custom div.custom.dropdown ul li { padding-top: 5px; padding-bottom: 5px; }
 ----------------------------------------- */
 
 .party {
-	background-image: url('../images/party.png');
-	background-repeat: no-repeat;
-	height: 110px;
 	margin-top: 30px;
 }
 #party-text  p{
@@ -197,9 +205,6 @@ form.custom div.custom.dropdown ul li { padding-top: 5px; padding-bottom: 5px; }
 ----------------------------------------- */
 
 .day {
-	background-image: url('../images/our-big-day.png');
-	background-repeat: no-repeat;
-	height: 110px;
 	margin-top: 30px;
 }
 #day-text {
@@ -216,9 +221,6 @@ font-size: 20px;
 ----------------------------------------- */
 
 .town {
-	background-image: url('../images/town.png');
-	background-repeat: no-repeat;
-	height: 110px;
 	margin-top: 30px;
 }
 #town-text p{
@@ -234,10 +236,12 @@ font-size: 16px;
 ----------------------------------------- */
 
 .gift {
-	background-image: url('../images/gift.png');
-	background-repeat: no-repeat;
-	height: 110px;
 	margin-top: 30px;
+}
+
+#gift-text p{
+color: #006;
+font-size: 16px;
 }
 
 /* -----------------------------------------
@@ -245,9 +249,6 @@ font-size: 16px;
 ----------------------------------------- */
 
 .rsvp {
-	background-image: url('../images/rsvp.png');
-	background-repeat: no-repeat;
-	height: 110px;
 	margin-top: 30px;
 }
 
