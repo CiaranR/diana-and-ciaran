@@ -147,7 +147,7 @@ form.custom div.custom.dropdown ul li { padding-top: 5px; padding-bottom: 5px; }
 	font-size: 106px; 
 	width: 465px;
 	font-weight: bold;
-	background: #69C;
+	background: #acf;
 	z-index: 2;
 }
 #our-story-text .ldn {
@@ -156,7 +156,7 @@ form.custom div.custom.dropdown ul li { padding-top: 5px; padding-bottom: 5px; }
 	font-size: 141px;
 	width: 465px;
 	font-weight: bold;
-	background: #69C;
+	background: #acf;
 }
 .ie6 .ny, .ie7 .ny, .ie8 .ny, .ie9 .ny {
 	margin-left: -50px !important;

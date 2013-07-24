@@ -4,7 +4,7 @@
 
 html { font-size: 62.5%; height: 100%;}
 
-body { background: #6699cc; font-family: "Helvetica", Helvetica, Arial, sans-serif; font-size: 22px; line-height: 1; color: #000066; position: relative; -webkit-font-smoothing: antialiased; height: 100%;}
+body { background: #aaccff; font-family: "Helvetica", Helvetica, Arial, sans-serif; font-size: 22px; line-height: 1; color: #000066; position: relative; -webkit-font-smoothing: antialiased; height: 100%;}
 
 /* Links ---------------------- */
 a { color: #960; text-decoration: none; line-height: inherit; }
@@ -419,9 +419,9 @@ that IE7/8 do not support :nth-child.
 .button.alert { background-color: #c60f13; border: 1px solid #7f0a0c; }
 .button.alert:hover { background-color: #970b0e; }
 .button.alert:focus { -webkit-box-shadow: 0 0 4px #c60f13, 0 1px 0 rgba(255, 255, 255, 0.5) inset; -moz-box-shadow: 0 0 4px #c60f13, 0 1px 0 rgba(255, 255, 255, 0.5) inset; box-shadow: 0 0 4px #c60f13, 0 1px 0 rgba(255, 255, 255, 0.5) inset; }
-.button.secondary { background-color: #6699cc; color: black; border: 1px solid #3973ac; }
+.button.secondary { background-color: #aaccff; color: black; border: 1px solid #3973ac; }
 .button.secondary:hover { background-color: #407fbf; }
-.button.secondary:focus { -webkit-box-shadow: 0 0 5px #6699cc, 0 1px 0 rgba(255, 255, 255, 0.5) inset; -moz-box-shadow: 0 0 5px #6699cc, 0 1px 0 rgba(255, 255, 255, 0.5) inset; box-shadow: 0 0 5px #6699cc, 0 1px 0 rgba(255, 255, 255, 0.5) inset; }
+.button.secondary:focus { -webkit-box-shadow: 0 0 5px #aaccff, 0 1px 0 rgba(255, 255, 255, 0.5) inset; -moz-box-shadow: 0 0 5px #aaccff, 0 1px 0 rgba(255, 255, 255, 0.5) inset; box-shadow: 0 0 5px #aaccff, 0 1px 0 rgba(255, 255, 255, 0.5) inset; }
 .button.radius { -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; }
 .button.round { -webkit-border-radius: 1000px; -moz-border-radius: 1000px; -ms-border-radius: 1000px; -o-border-radius: 1000px; border-radius: 1000px; }
 .button.full-width { width: 100%; text-align: center; padding-left: 0px !important; padding-right: 0px !important; }
@@ -432,8 +432,8 @@ that IE7/8 do not support :nth-child.
 .button.disabled.success:hover, .button[disabled].success:hover { background-color: #cc0066; }
 .button.disabled.alert, .button[disabled].alert { background-color: #c60f13; }
 .button.disabled.alert:hover, .button[disabled].alert:hover { background-color: #c60f13; }
-.button.disabled.secondary, .button[disabled].secondary { background-color: #6699cc; }
-.button.disabled.secondary:hover, .button[disabled].secondary:hover { background-color: #6699cc; }
+.button.disabled.secondary, .button[disabled].secondary { background-color: #aaccff; }
+.button.disabled.secondary:hover, .button[disabled].secondary:hover { background-color: #aaccff; }
 
 /* Don't use native buttons on iOS */
 input[type=submit].button, button.button { -webkit-appearance: none; }
@@ -469,7 +469,7 @@ input[type=submit].button, button.button { -webkit-appearance: none; }
 .button.dropdown.split:hover { background-color: #3333cc; }
 .button.dropdown.split.alert:hover { background-color: #c60f13; }
 .button.dropdown.split.success:hover { background-color: #cc0066; }
-.button.dropdown.split.secondary:hover { background-color: #6699cc; }
+.button.dropdown.split.secondary:hover { background-color: #aaccff; }
 .button.dropdown.split > a { color: white; display: block; padding: 10px 50px 11px 20px; padding-left: 20px; padding-right: 50px; -webkit-transition: background-color 0.15s ease-in-out; -moz-transition: background-color 0.15s ease-in-out; -o-transition: background-color 0.15s ease-in-out; transition: background-color 0.15s ease-in-out; }
 .button.dropdown.split > a:hover { background-color: #2929a3; }
 .button.dropdown.split.large > a { padding: 15px 75px 16px 30px; padding-left: 30px; padding-right: 75px; }
@@ -487,7 +487,7 @@ input[type=submit].button, button.button { -webkit-appearance: none; }
 .button.dropdown.split.tiny span:after { content: ""; display: block; width: 0; height: 0; border: solid 3px; border-color: white transparent transparent transparent; margin-top: -1px; margin-left: -3px; }
 .button.dropdown.split.alert > span { background-color: #c60f13; border-left-color: #7f0a0c; }
 .button.dropdown.split.success > span { background-color: #cc0066; border-left-color: #800040; }
-.button.dropdown.split.secondary > span { background-color: #6699cc; border-left-color: #3973ac; }
+.button.dropdown.split.secondary > span { background-color: #aaccff; border-left-color: #3973ac; }
 .button.dropdown.split.secondary > a { color: black; }
 .button.dropdown.split.alert > a:hover, .button.dropdown.split.alert > span:hover { background-color: #970b0e; }
 .button.dropdown.split.success > a:hover, .button.dropdown.split.success > span:hover { background-color: #99004d; }
@@ -801,7 +801,7 @@ table.show-for-xlarge, table.show-for-large, table.hide-for-small, table.hide-fo
 div.alert-box { display: block; padding: 6px 7px 7px; font-weight: bold; font-size: 14px; color: white; background-color: #3333cc; border: 1px solid rgba(0, 0, 0, 0.1); margin-bottom: 12px; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; text-shadow: 0 -1px rgba(0, 0, 0, 0.3); position: relative; }
 div.alert-box.success { background-color: #cc0066; color: #fff; text-shadow: 0 -1px rgba(0, 0, 0, 0.3); }
 div.alert-box.alert { background-color: #c60f13; color: #fff; text-shadow: 0 -1px rgba(0, 0, 0, 0.3); }
-div.alert-box.secondary { background-color: #6699cc; color: black; text-shadow: 0 1px rgba(255, 255, 255, 0.3); }
+div.alert-box.secondary { background-color: #aaccff; color: black; text-shadow: 0 1px rgba(255, 255, 255, 0.3); }
 div.alert-box a.close { color: #333; position: absolute; right: 4px; top: -1px; font-size: 17px; opacity: 0.2; padding: 4px; }
 div.alert-box a.close:hover, div.alert-box a.close:focus { opacity: 0.4; }
 
@@ -811,7 +811,7 @@ div.alert-box a.close:hover, div.alert-box a.close:focus { opacity: 0.4; }
 .label.round { padding: 1px 7px 2px; -webkit-border-radius: 1000px; -moz-border-radius: 1000px; -ms-border-radius: 1000px; -o-border-radius: 1000px; border-radius: 1000px; }
 .label.alert { background-color: #c60f13; }
 .label.success { background-color: #cc0066; }
-.label.secondary { background-color: #6699cc; color: black; }
+.label.secondary { background-color: #aaccff; color: black; }
 
 /* Tooltips ---------------------- */
 .has-tip { border-bottom: dotted 1px #cccccc; cursor: help; font-weight: bold; color: #333333; }
@@ -843,16 +843,16 @@ div.alert-box a.close:hover, div.alert-box a.close:focus { opacity: 0.4; }
 .panel.radius { -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; }
 
 /* Accordion ---------------------- */
-ul.accordion { margin: 0 0 22px 0; border-bottom: 1px solid #6699cc; }
-ul.accordion > li { list-style: none; margin: 0; padding: 0; border-top: 1px solid #6699cc; }
-ul.accordion > li .title { cursor: pointer; background: #79a6d2; padding: 15px; margin: 0; position: relative; border-left: 1px solid #6699cc; border-right: 1px solid #6699cc; -webkit-transition: 0.15s background linear; -moz-transition: 0.15s background linear; -o-transition: 0.15s background linear; transition: 0.15s background linear; }
+ul.accordion { margin: 0 0 22px 0; border-bottom: 1px solid #aaccff; }
+ul.accordion > li { list-style: none; margin: 0; padding: 0; border-top: 1px solid #aaccff; }
+ul.accordion > li .title { cursor: pointer; background: #79a6d2; padding: 15px; margin: 0; position: relative; border-left: 1px solid #aaccff; border-right: 1px solid #aaccff; -webkit-transition: 0.15s background linear; -moz-transition: 0.15s background linear; -o-transition: 0.15s background linear; transition: 0.15s background linear; }
 ul.accordion > li .title h1, ul.accordion > li .title h2, ul.accordion > li .title h3, ul.accordion > li .title h4, ul.accordion > li .title h5 { margin: 0; }
 ul.accordion > li .title:after { content: ""; display: block; width: 0; height: 0; border: solid 6px; border-color: transparent #264c73 transparent transparent; position: absolute; right: 15px; top: 21px; }
 ul.accordion > li .content { display: none; padding: 15px; }
 ul.accordion > li.active { border-top: 3px solid #3333cc; }
 ul.accordion > li.active .title { background: white; padding-top: 13px; }
 ul.accordion > li.active .title:after { content: ""; display: block; width: 0; height: 0; border: solid 6px; border-color: #264c73 transparent transparent transparent; }
-ul.accordion > li.active .content { background: white; display: block; border-left: 1px solid #6699cc; border-right: 1px solid #6699cc; }
+ul.accordion > li.active .content { background: white; display: block; border-left: 1px solid #aaccff; border-right: 1px solid #aaccff; }
 
 /* Side Nav ---------------------- */
 ul.side-nav { display: block; list-style: none; margin: 0; padding: 17px 0; }
@@ -879,7 +879,7 @@ ul.pagination li.current a { background: #3333cc; color: white; font-weight: bol
 ul.pagination li.current a:hover { background: #3333cc; }
 
 /* Breadcrums ---------------------- */
-ul.breadcrumbs { display: block; background: #79a6d2; padding: 6px 10px 7px; border: 1px solid #6699cc; -webkit-border-radius: 2px; -moz-border-radius: 2px; -ms-border-radius: 2px; -o-border-radius: 2px; border-radius: 2px; overflow: hidden; }
+ul.breadcrumbs { display: block; background: #79a6d2; padding: 6px 10px 7px; border: 1px solid #aaccff; -webkit-border-radius: 2px; -moz-border-radius: 2px; -ms-border-radius: 2px; -o-border-radius: 2px; border-radius: 2px; overflow: hidden; }
 ul.breadcrumbs li { margin: 0; padding: 0 12px 0 0; float: left; list-style: none; }
 ul.breadcrumbs li a, ul.breadcrumbs li span { text-transform: uppercase; font-size: 11px; font-size: 1.1rem; padding-left: 12px; }
 ul.breadcrumbs li:first-child a, ul.breadcrumbs li:first-child span { padding-left: 0; }
@@ -941,7 +941,7 @@ p.vevent abbr { cursor: default; text-decoration: none; font-weight: bold; borde
 /* Progress Bar ---------------------- */
 div.progress { padding: 2px; margin-bottom: 10px; border: 1px solid #cccccc; height: 25px; /* meter */ /* border radii */ }
 div.progress .meter { background: #3333cc; height: 100%; display: block; width: 50%; }
-div.progress.secondary .meter { background: #6699cc; }
+div.progress.secondary .meter { background: #aaccff; }
 div.progress.success .meter { background: #cc0066; }
 div.progress.alert .meter { background: #c60f13; }
 div.progress.radius { -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; }
