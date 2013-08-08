@@ -177,11 +177,8 @@ function rsvpErrorCallback(errors, event){
 					$('#response-error-text').html('Can\'t make your mind up?');
 				break;
 			}
-			console.log(errors[i]);
             errorString += errors[i].message + '\n';
         }
-        
-        alert(errorString);
 		return false; 
     } else {	
 		return true;
