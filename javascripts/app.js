@@ -99,6 +99,7 @@ $('input[name="entry.4"]').change(function() {
 $('input[name="entry.5"]').change(function() {
 		
 	$('#response-error-box').removeClass('error');
+	$('#response-error-inner-box').css('border', 'none');
 	$('#response-error-text').html('');
 		
 	if( $(this).val()==="Accepts with pleasure"){
@@ -147,6 +148,7 @@ function rsvpErrorCallback(errors, event){
 		$('#email-error-box').removeClass('error');
 		$('#email-error-text').html('');
 		$('#response-error-box').removeClass('error');
+		$('#response-error-inner-box').css('border', 'none');
 		$('#response-error-text').html('');
         
         for (var i = 0, errorLength = errors.length; i < errorLength; i++) {
@@ -174,6 +176,7 @@ function rsvpErrorCallback(errors, event){
 				
 				case "entry.5" :
 					$('#response-error-box').addClass('error');
+					$('#response-error-inner-box').css('border', '1px solid #c60f13');
 					$('#response-error-text').html('Can\'t make your mind up?');
 				break;
 			}
