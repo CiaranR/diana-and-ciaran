@@ -47,6 +47,146 @@
 
 })(jQuery, this);
 
+
+$('#real_entry_1').click(function() {
+	$('#title-error-box').removeClass('error');
+	$('#title-error-text').html('');
+});
+
+$('input[name="entry.2"]').change(function() {
+	$('#fname-error-box').removeClass('error');
+	$('#fname-error-text').html('');
+});
+
+var namearr2 = [  "glennon", "schwalb", "johnson", "schrodell" ];
+var namearr3 = [  "kripp", "fox", "labi", "albertini", "convey" ];
+var namearr4 = [  "adams" ];
+
+$('input[name="entry.3"]').change(function() {
+
+	$('#lname-error-box').removeClass('error');
+	$('#lname-error-text').html('');
+	
+	if( $.inArray($(this).val().toLowerCase().trim(), namearr2) > -1){
+		$('#guest').css('display', 'none');
+		$('#guestt').css('display', 'none');
+		$('.name3').css('display', 'none');
+		$('.name4').css('display', 'none');
+	}  else if( $.inArray($(this).val().toLowerCase().trim(), namearr3) > -1){
+		$('#guest').css('display', 'block');
+		$('#guestt').css('display', 'block');
+		$('.name3').css('display', 'inherit');			
+		$('.name4').css('display', 'none');
+	}  else	if( $.inArray($(this).val().toLowerCase().trim(), namearr4) > -1){
+		$('#guest').css('display', 'block');
+		$('#guestt').css('display', 'block');
+		$('.name3').css('display', 'inherit');
+		$('.name4').css('display', 'inherit');
+	} else {
+		$('.name3').css('display', 'none');		
+		$('.name4').css('display', 'none');
+		$('#guest').css('display', 'block');
+		$('#guestt').css('display', 'block');
+	}
+});
+
+
+$('input[name="entry.4"]').change(function() {
+	$('#email-error-box').removeClass('error');
+	$('#email-error-text').html('');
+});
+
+$('input[name="entry.5"]').change(function() {
+		
+	$('#response-error-box').removeClass('error');
+	$('#response-error-text').html('');
+		
+	if( $(this).val()==="Accepts with pleasure"){
+		$('.name2').fadeIn(1200)
+	} else {
+		$('.name2').fadeOut(1200)
+	}	
+});
+
+var rsvpFields = [{
+    name: 'entry.1',
+    display: 'Title',    
+    rules: 'required'
+},{
+    name: 'entry.2',
+    display: 'First Name',    
+    rules: 'required'
+},{
+    name: 'entry.3',
+    display: 'Last Name',    
+    rules: 'required'
+},{
+    name: 'entry.4',
+    display: 'Email',    
+    rules: 'required'
+},{
+    name: 'entry.5',
+    display: 'Response',    
+    rules: 'required'
+},
+];
+
+
+function rsvpErrorCallback(errors, event){ 	
+	if (errors.length > 0) {
+	
+        var errorString = '';
+		
+		//reset errors to off, i'm sure there is a better way to do this, but it's 2am and i'm tired
+		$('#title-error-box').removeClass('error');
+		$('#title-error-text').html('');
+		$('#fname-error-box').removeClass('error');
+		$('#fname-error-text').html('');
+		$('#lname-error-box').removeClass('error');
+		$('#lname-error-text').html('');
+		$('#email-error-box').removeClass('error');
+		$('#email-error-text').html('');
+		$('#response-error-box').removeClass('error');
+		$('#response-error-text').html('');
+        
+        for (var i = 0, errorLength = errors.length; i < errorLength; i++) {
+			switch(errors[i].name) {
+			
+				case "entry.1" :
+					$('#title-error-box').addClass('error');
+					$('#title-error-text').html('Your title?');
+				break;
+				
+				case "entry.2" :
+					$('#fname-error-box').addClass('error');
+					$('#fname-error-text').html('What\'s your first name?');
+				break;
+				
+				case "entry.3" :
+					$('#lname-error-box').addClass('error');
+					$('#lname-error-text').html('What\'s your last name?');
+				break;
+				
+				case "entry.4" :
+					$('#email-error-box').addClass('error');
+					$('#email-error-text').html('Please can we have an email address or phone number?');
+				break;
+				
+				case "entry.5" :
+					$('#response-error-box').addClass('error');
+					$('#response-error-text').html('Can\'t make your mind up?');
+				break;
+			}
+            errorString += errors[i].message + '\n';
+        }
+		return false; 
+    } else {	
+		return true;
+	}
+};
+
+
+
 //; 
 //$('#defaultCountdown').countdown({until: weddingday, 
 //    layout: '{dn} {dl}, {hn} {hl}, {mn} {ml} and {sn} {sl}'});
