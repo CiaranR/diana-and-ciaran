@@ -276,16 +276,16 @@ font-size: 16px;
 }
 #main {
 	overflow:auto;
-	padding-bottom: 82px; /* must be same height as the footer */
+	padding-bottom: 102px; /* must be same height as the footer */
 } 
 #footer {
 	position: relative;
-	margin-top: -82px; /* negative value of footer height */
-	height: 82px;
+	margin-top: -102px; /* negative value of footer height */
+	height: 102px;
 	background: #000066; 
 	background-image:  url('../images/foot.png');
 	background-repeat: no-repeat;
-	background-position: center center;
+	background-position: center 20px;
 	color: #6699cc; 
 	width:100%;
 	clear:both;
