@@ -134,9 +134,21 @@ form.custom div.custom.dropdown ul li { padding-top: 5px; padding-bottom: 5px; }
 .our-story {
 	margin-top: 30px;
 }
+@media only screen and (max-width: 1171px) and (min-width: 768px){
+	#our-story-text .row{
+		min-width: 1170px;
+	}
+}
 #our-story-text  p {
 	font-family: "Times New Roman", Times, serif;
 	font-size: 46px;
+}
+#our-story-text .bigl {
+	font-size: 90px;
+	font-family: 'Cherry Swash', cursive;
+}
+#our-story-text .ltext {
+	font-size: 40px;
 }
 #our-story-text  p strong.shadow{
 	text-shadow: 1px 1px 1px #000;
@@ -163,6 +175,26 @@ form.custom div.custom.dropdown ul li { padding-top: 5px; padding-bottom: 5px; }
 }
 .ie6 .ldn, .ie7 .ldn, .ie8 .ldn, .ie9 .ldn {
 	margin-left: 0px !important;
+}
+@media only screen and (max-width: 767px) {
+	.bigl {
+			font-family: "Times New Roman", Times, serif !important;
+				font-size: 50px !important;
+	}
+	.ltext {
+		font-size: 30px !important;
+		padding-bottom: 12px;
+	}
+	.ny, .ldn, .bracket, .bigscreenpic{
+		display: none;
+	}
+	.smallscreenpic {
+		display: block !important;
+	}
+	#our-story-text .cites {
+		margin-left: 0px !important;
+	}
+	
 }
 #our-story-text .cites {
 	margin-left:-90px; 
