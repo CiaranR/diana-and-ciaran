@@ -53,14 +53,36 @@ $('#real_entry_1').click(function() {
 	$('#title-error-text').html('');
 });
 
+var namearr2 = [  "glennon", "schwlab", "johnson", "nygren" ];
+var namearr3 = [  "kripp", "fox", "labi", "albertini"];
+var namearr4 = [  "adams", "feehily" ];
+var namearr5 = [  "convey", "o'hagan" ];
+
+
 $('input[name="entry.2"]').change(function() {
 	$('#fname-error-box').removeClass('error');
 	$('#fname-error-text').html('');
+	
+	if ( ($.inArray($('#entry_3').val().toLowerCase().trim(), namearr4) > -1) || (($('#entry_3').val().toLowerCase().trim() == "meehan" && ($('#entry_2').val().toLowerCase().trim() == "francis" || $('#entry_2').val().toLowerCase().trim() == "carmel") )  )){
+		$('#guest').css('display', 'block');
+		$('#guestt').css('display', 'block');
+		$('.name3').css('display', 'inherit');
+		$('.name4').css('display', 'inherit');
+		$('.name5').css('display', 'none');
+	} else	if((($.inArray($('#entry_3').val().toLowerCase().trim(), namearr5) > -1) && ($('#entry_2').val().toLowerCase().trim() != "karl" && $('#entry_2').val().toLowerCase().trim() != "declan") ) ||($('#entry_3').val().toLowerCase().trim() == "meehan" && ($('#entry_2').val().toLowerCase().trim() == "johnjames" || $('#entry_2').val().toLowerCase().trim() == "maureen"))){
+		$('#guest').css('display', 'block');
+		$('#guestt').css('display', 'block');
+		$('.name3').css('display', 'inherit');
+		$('.name4').css('display', 'inherit');
+		$('.name5').css('display', 'inherit');
+	} else {
+		$('.name3').css('display', 'none');		
+		$('.name4').css('display', 'none');				
+		$('.name5').css('display', 'none');
+		$('#guest').css('display', 'block');
+		$('#guestt').css('display', 'block');
+	}
 });
-
-var namearr2 = [  "glennon", "schwalb", "johnson", "schrodell" ];
-var namearr3 = [  "kripp", "fox", "labi", "albertini", "convey" ];
-var namearr4 = [  "adams" ];
 
 $('input[name="entry.3"]').change(function() {
 
@@ -71,20 +93,30 @@ $('input[name="entry.3"]').change(function() {
 		$('#guest').css('display', 'none');
 		$('#guestt').css('display', 'none');
 		$('.name3').css('display', 'none');
-		$('.name4').css('display', 'none');
+		$('.name4').css('display', 'none');		
+		$('.name5').css('display', 'none');
 	}  else if( $.inArray($(this).val().toLowerCase().trim(), namearr3) > -1){
 		$('#guest').css('display', 'block');
 		$('#guestt').css('display', 'block');
 		$('.name3').css('display', 'inherit');			
-		$('.name4').css('display', 'none');
-	}  else	if( $.inArray($(this).val().toLowerCase().trim(), namearr4) > -1){
+		$('.name4').css('display', 'none');				
+		$('.name5').css('display', 'none');
+	}  else	if( ($.inArray($(this).val().toLowerCase().trim(), namearr4) > -1) || (($(this).val().toLowerCase().trim() == "meehan" && ($('#entry_2').val().toLowerCase().trim() == "francis" || $('#entry_2').val().toLowerCase().trim() == "carmel") ) ) ){
 		$('#guest').css('display', 'block');
 		$('#guestt').css('display', 'block');
 		$('.name3').css('display', 'inherit');
 		$('.name4').css('display', 'inherit');
+		$('.name5').css('display', 'none');
+	} else	if( (($.inArray($(this).val().toLowerCase().trim(), namearr5) > -1) && ($('#entry_2').val().toLowerCase().trim() != "karl" && $('#entry_2').val().toLowerCase().trim() != "declan") ) || ($(this).val().toLowerCase().trim() == "meehan" && ($('#entry_2').val().toLowerCase().trim() == "johnjames" || $('#entry_2').val().toLowerCase().trim() == "maureen")) ){
+		$('#guest').css('display', 'block');
+		$('#guestt').css('display', 'block');
+		$('.name3').css('display', 'inherit');
+		$('.name4').css('display', 'inherit');
+		$('.name5').css('display', 'inherit');
 	} else {
 		$('.name3').css('display', 'none');		
-		$('.name4').css('display', 'none');
+		$('.name4').css('display', 'none');				
+		$('.name5').css('display', 'none');
 		$('#guest').css('display', 'block');
 		$('#guestt').css('display', 'block');
 	}
