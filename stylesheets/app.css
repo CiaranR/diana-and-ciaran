@@ -15,7 +15,9 @@
 /* -----------------------------------------
    Shared Styles
 ----------------------------------------- */
-
+img {
+	border: 0px;
+}
 #nav-top{
 background: #000066; 
 color: #6699cc; 
@@ -311,7 +313,7 @@ color: #006;
 font-size: 16px;
 }
 
-.name2, .name3, .name4 {
+.name2, .name3, .name4, .name5 {
 	display: none;
 }
 
