@@ -159,6 +159,9 @@ form.custom div.custom.dropdown ul li { padding-top: 5px; padding-bottom: 5px; }
 	font-family: "Times New Roman", Times, serif;
 	font-size: 46px;
 }
+#our-story-text  p strong.shadow{
+	text-shadow: 1px 1px 1px #000;
+}
 #our-story-text .bigl {
 	font-size: 90px;
 	font-family: 'Cherry Swash', cursive;
@@ -166,8 +169,21 @@ form.custom div.custom.dropdown ul li { padding-top: 5px; padding-bottom: 5px; }
 #our-story-text .ltext {
 	font-size: 40px;
 }
-#our-story-text  p strong.shadow{
-	text-shadow: 1px 1px 1px #000;
+#our-story-text .caught {
+	margin-top: -42px;
+	font-size: 64px;
+}
+#our-story-text .gemma {
+	margin-top: -55px;
+	font-size: 23px;
+}
+#our-story-text .diana {
+	margin-top: 41px; 
+	font-size: 135px;
+}
+#our-story-text .never {
+	margin-top: -80px; 
+	font-size: 30px;
 }
 #our-story-text .ny {
 	margin-left: 130px;
@@ -192,19 +208,38 @@ form.custom div.custom.dropdown ul li { padding-top: 5px; padding-bottom: 5px; }
 .ie6 .ldn, .ie7 .ldn, .ie8 .ldn, .ie9 .ldn {
 	margin-left: 0px !important;
 }
-@media only screen and (max-width: 767px) {
-	.bigl {
-			font-family: "Times New Roman", Times, serif !important;
-				font-size: 50px !important;
+
+@media only screen and (max-width: 400px) {
+	#our-story-text .caught {
+		margin-top: -30px;
+		font-size: 50px;
 	}
-	.ltext {
+	#our-story-text .gemma {
+		margin-top: -50px;
+		font-size: 18px;
+	}
+	#our-story-text .diana {
+		margin-top: -60px; 
+		font-size: 110px;
+	}
+	#our-story-text .never {
+		margin-top: -80px; 
+		font-size: 30px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	#our-story-text .bigl {
+			font-family: "Times New Roman", Times, serif;
+				font-size: 50px;
+	}
+	#our-story-text .ltext {
 		font-size: 30px !important;
 		padding-bottom: 12px;
 	}
 	.ny, .ldn, .bracket, .bigscreenpic{
 		display: none;
 	}
-	.smallscreenpic {
+	#our-story-text .smallscreenpic {
 		display: block !important;
 	}
 	#our-story-text .cites {
