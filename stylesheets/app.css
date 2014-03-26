@@ -19,9 +19,9 @@ img {
 	border: 0px;
 }
 #nav-top{
-background: #000066; 
-color: #6699cc; 
-width:100%
+	background: #000066; 
+	color: #6699cc; 
+	width: 100%
 }
 #nav-top a {
 	color: #6699cc;
@@ -36,15 +36,18 @@ width:100%
 	color: #996600;
 	outline: none; 
 }
+#nav-top a.middle {
+	padding-left: 40px;
+}
 .nav-bg {
 	padding-bottom: 12px;
 }
 .nav-bg p {
 	margin-top: 25px;
-	font-size: 20px;
+	font-size: 24px;
 }
 .pad-right-50 {
-	padding-right:50px
+	padding-right: 50px
 }
 .pad-left-50 {
 	padding-left:50px
