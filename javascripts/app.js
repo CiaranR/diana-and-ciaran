@@ -221,17 +221,18 @@ function rsvpErrorCallback(errors, event){
 	}
 };
 
-
-
 //; 
 //$('#defaultCountdown').countdown({until: weddingday, 
 //    layout: '{dn} {dl}, {hn} {hl}, {mn} {ml} and {sn} {sl}'});
 $(function () {
 	var weddingday = new Date();
 	weddingday = new Date(2013, 11-1, 08, 14, 00)
-	$('#defaultCountdown').countdown({until: $.countdown.UTCDate(-5, weddingday),
-	layout: '{dn} {dl}, {hn} {hl}, {mn} {ml} and {sn} {sl}'});
+	//$('#defaultCountdown').countdown({since: weddingday, significant: 3,
+	//layout: '{on} {ol}, {dn} {dl}'});
+	$('#defaultCountdown').countdown({since: weddingday, format: 'yod', significant: 2, words: 1});
+	$('#defaultCountdown2').countdown({since: weddingday, layout: '{dn} {dl}'});
 });
+
 $(document).ready (function () {
     $('.home-link').hover(function() {
 		$('.nav-bg').css('background-position', '0 0');		
